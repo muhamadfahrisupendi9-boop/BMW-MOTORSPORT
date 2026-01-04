@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a0a0a;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+                url('BmW motorsport.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 3px solid #0066b1;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            letter-spacing: 2px;
+            color: #fff;
+        }
+
+        #jam-digital {
+            color: #00a8e8;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        nav {
+            background: #1c1c1c;
+            padding: 15px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background: rgba(28, 28, 28, 0.9);
+            border: 1px solid #333;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+        }
+
+        h2 {
+            color: #0066b1;
+            padding-left: 15px;
+        }
+
+        h3 {
+            color: #0066b1;
+            margin-top: 25px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #111;
+            color: #0066b1;
+            width: 900%;
+            text-align: center;
+            padding: 25px;
+            font-size: 13px;
+            border-top: 1px solid #222;
+        }
+
+        .gallery-container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            padding: 40px;
+            flex-wrap: wrap;
+        }
+
+        .gallery-card {
+            background-color: #010336;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .gallery-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+
+        .gallery-card h3 {
+            color: #00b4d8;
+            margin: 0;
+        }
+
+        .gallery-card p {
+            font-size: 0.9rem;
+            color: white;
+            line-height: 1.5;
+        }
+
+        .active {
+            color: #0066cc;
+            border-bottom: 3px solid #0066cc;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>BMW MOTORSPORT</h1>
+        <div id="jam-digital"></div>
+    </header>
+
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="GALLERY MOBIL .html" class="active">Gallery</a>
+        <a href="Contact.html">Hubungi Kami</a>
+        <a href="Tentang.html">Tentang</a>
+    </nav>
+
+    <div class="gallery-container">
+        <div class="gallery-card">
+            <h3>BMW Z4 roadster</h3>
+            </font>
+            <img src="z4 roadster.jpg" alt="BMW mobil sport ">
+            <p>
+                <font color="white">Dirancang sebagai mobil sport dua pintu yang dinamis, BMW Z4 menggabungkan performa mesin TwinPower Turbo dengan keindahan desain konvertibel klasik. Mobil ini diciptakan khusus bagi mereka yang mengutamakan kelincahan berkendara dan gaya hidup eksklusif.
+            </p>
+            </font>
+        </div>
+
+        <div class="gallery-card">
+            <h3>BMW M4</h3>
+            <img src="download.jpg" alt="Mobil BMW M4 ">
+            <p>Dirancang untuk kompetisi balap ketahanan dan sprint di kelas GT3, menggantikan peran BMW M6 GT3.</p>
+        </div>
+
+        <div class="gallery-card">
+            <h3>BMW S 1000 RR</h3>
+            <img src="bmw motorcycle.jpg" alt="BMW S 1000 RR">
+            <p>BMW S 1000 RR, yang merupakan sepeda motor pertama dari divisi BMW M Motorsport. Motor ini dirancang
+                sebagai superbike berperforma tinggi dengan teknologi yang diturunkan langsung dari ajang balap
+                World Superbike (WSBK).</p>
+        </div>
+
+        <div class="gallery-card">
+            <h3>BMW series X5 M</h3>
+            <img src="bmw series-x5-m.jpg" alt="BMW X5 M">
+            <p>Mobil ini dirancang bagi mereka yang menginginkan SUV dengan ruang kabin luas dan bagasi besar
+                (hingga 1.870 liter saat kursi dilipat), namun tetap ingin merasakan performa mesin V8 yang buas di
+                lintasan balap maupun jalan raya.</p>
+        </div>
+
+        <div class="gallery-card">
+            <h3>BMW series X6 M</h3>
+            <img src="BMW X6 M.jpg" alt="BMW X6 M">
+            <p>BMW X6 M Competition adalah mobil dengan agresif namun tetap bisa digunakan untuk perjalanan jauh
+                bersama keluarga dengan tingkat keamanan tertinggi.</p>
+        </div>
+
+        <div class="gallery-card">
+            <h3>BMW M 1000 RR</h3>
+            <img src="BMW M 1000 RR.jpg" alt="BMW motorcycle m 1000 rr">
+            <p>Varian M Competition ditujukan bagi kolektor atau pembalap profesional yang menginginkan motor dengan
+                bobot teringan dan performa aerodinamika terbaik langsung dari pabrik tanpa perlu melakukan
+                modifikasi tambahan.</p>
+        </div>
+
+        <footer>
+            <p>CopyRight &copy; 2025 | Nama: Muhamad Fahri Supendi | NIM: 251011701065 | Kelas: 01SIFP013</p>
+        </footer>
+
+        <script>
+            function tampilkanWaktu() {
+                const waktu = new Date();
+                const opsi = {
+                    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
+                    hour: '2-digit', minute: '2-digit', second: '2-digit'
+                };
+                document.getElementById('jam-digital').innerHTML = waktu.toLocaleDateString('id-ID', opsi);
+            }
+            setInterval(tampilkanWaktu, 1000);
+            tampilkanWaktu();
+        </script>
+
+</body>
+
+</html>
